@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Price-solver
+/**********************
+ * Next.js App Router
+ * Drop this file at: app/page.tsx
+ * Requires Tailwind + shadcn/ui installed
+ **********************/
+
+// Regression equations (from user):
+// 1) Gold vs BTC:   Gold = -0.000007 * BTC + 1784.21
+// 2) Silver vs BTC: Silver = -0.000015 * BTC + 23.14
+// 3) Silver vs Gold: Silver = 0.0135 * Gold - 0.51
+
+// Supported assets
+// G = Gold (USD/oz), S = Silver (USD/oz), B = BTC (USD)
+
 ## Getting Started
 
 First, run the development server:
