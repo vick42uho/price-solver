@@ -119,7 +119,7 @@ export default function Page() {
           <h1 className="text-3xl md:text-4xl font-semibold tracking-tight">
             Gold • Silver • BTC <span className="text-primary">Price Solver</span>
           </h1>
-         
+
         </div>
 
         <Tabs defaultValue="calc" className="w-full">
@@ -132,7 +132,9 @@ export default function Page() {
             <Card className="border-border/60 shadow-sm">
               <CardHeader>
                 <CardTitle>แปลงราคา (Cross‑Asset)</CardTitle>
-                <CardDescription>เลือก "ฉันมีราคา" → กรอกค่า → เลือก "อยากได้ราคา" ระบบจะคิดให้อัตโนมัติ</CardDescription>
+                <CardDescription>
+                  เลือก &quot;ฉันมีราคา&quot; → กรอกค่า → เลือก &quot;อยากได้ราคา&quot; ระบบจะคิดให้อัตโนมัติ
+                </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="grid gap-4 md:grid-cols-2">
@@ -295,4 +297,3 @@ function PresetRow({ asset, onPick }: { asset: Asset; onPick: (v: number) => voi
     </div>
   );
 }
-
